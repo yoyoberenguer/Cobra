@@ -1,3 +1,4 @@
+
 # Cobra
 Cobra is a 2D space game with vertical scrolling (also called shmups), written exclusively in python 3.6 (using pygame) 
 and playable with PS3 controller and/or keyboard. 
@@ -9,6 +10,7 @@ DEMO AVAILABLE
 - Run Cobra.exe 
 
 FEATURES
+
 Works with Keyboard and PS3 controller Automatic player's central turret with pre-define strategy using AI (collision course calculation,
 and risks triage). 
 
