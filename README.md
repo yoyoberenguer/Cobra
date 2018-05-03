@@ -1,4 +1,5 @@
 
+
 Cobra DEMO
 
 Cobra is a 2D space game with vertical scrolling (also called shmups), written exclusively in python 3.6 (using pygam & cython) 
@@ -21,17 +22,25 @@ HOW TO INSTALL
 
 HOW TO PLAY 
 Keyboard: 
-ARROW KEYS: (LEFT, RIGHT, UP and DOWN) for spaceship direction 
-SPACEBAR:  Primary shot 
-LEFT – CTRL: Secondary shot 
+ARROW KEYS: (LEFT, RIGHT, UP and DOWN) for spaceship direction
+
+SPACEBAR:  Primary shot
+
+LEFT – CTRL: Secondary shot
+
 PAUSE/BREAK : Pause the game
+
 ESC: to quit
 
 PS3 Joystick:
 X: Primary shot
-SQUARE: Micro bots 
-L3: Directions 
-L2: Atomics 
+
+SQUARE: Micro bots
+
+L3: Directions
+
+L2: Atomics
+
 R2: Secondary shot and missiles
 
 ** PS Insert your PS3 USB dongle if any otherwise use the keyboard
