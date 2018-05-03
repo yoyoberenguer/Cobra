@@ -251,6 +251,18 @@ class Player(pygame.sprite.Sprite):
         return self.rect.center
 
     @staticmethod
+    def super_laser():
+        if not LASER_BEAM_BLUE.weapon_reloading_std():
+
+            Follower.images = DEATHRAY_SHAFT
+            instance_ = Follower(offset_=player.rect.center, timing_=15, loop_=True, event_='SHAFT LIGHT')
+            if instance_:
+                SuperLaser.containers = shots, All
+                SuperLaser.images = LASER_BEAM_BLUE.sprite
+                SuperLaser(LASER_BEAM_BLUE, TIME_PASSED_SECONDS,
+                           SC_spaceship, player, All, instance_, layer_=-2)
+
+    @staticmethod
     def nuke():
         if SHIP_SPECS.nukes > 0 and player.alive():
 
@@ -5974,31 +5986,42 @@ if __name__ == '__main__':
         DIRECTIONS = pygame.math.Vector2(keys[K_RIGHT] - keys[K_LEFT], keys[K_DOWN] - keys[K_UP])
 
         if JOYSTICK.availability:
+            if player.alive():
 
-            # Spaceship control up/down left/right
-            JOYSTICK_AXIS_1 = pygame.math.Vector2(
-                round(JOYSTICK.inventory[0].get_axis(0), 1), round(JOYSTICK.inventory[0].get_axis(1), 1))
+                # Spaceship control up/down left/right
+                JOYSTICK_AXIS_1 = pygame.math.Vector2(
+                    round(JOYSTICK.inventory[0].get_axis(0), 1), round(JOYSTICK.inventory[0].get_axis(1), 1))
 
-            firing = keys[K_SPACE] or JOYSTICK.inventory[0].get_button(2)
-            super_shot = keys[K_LCTRL] or JOYSTICK.inventory[0].get_button(7)
+                firing = keys[K_SPACE] or JOYSTICK.inventory[0].get_button(2)
+                super_shot = keys[K_LCTRL] or JOYSTICK.inventory[0].get_button(7)
 
-            # Micro - bots squad
-            if JOYSTICK.inventory[0].get_button(3) or keys[K_RCTRL]:
-                if player.alive():
-                    MicroBots(player, timing_=33)
+                # Micro - bots squad
+                if JOYSTICK.inventory[0].get_button(3) or keys[K_RCTRL]:
+                    if player.alive():
+                        MicroBots(player, timing_=33)
 
-            # NUKE Bomb release
-            elif JOYSTICK.inventory[0].get_button(6):
-                Player.nuke()
+                # NUKE Bomb release
+                elif JOYSTICK.inventory[0].get_button(6) or keys[K_RETURN]:
+                    Player.nuke()
+
+                elif JOYSTICK.inventory[0].get_button(0) or keys[K_LSHIFT]:
+                    player.super_laser()
 
         # Keyboard control only
         else:
-            # todo need to check if a keyboard is available first
-            firing = keys[K_SPACE]
-            super_shot = keys[K_LCTRL]
-            if keys[K_RCTRL]:
-                if player.alive():
+            if player.alive():
+                # todo need to check if a keyboard is available first
+                firing = keys[K_SPACE]
+                super_shot = keys[K_LCTRL]
+                if keys[K_RCTRL]:
                     MicroBots(player, timing_=33)
+
+                elif keys[K_RETURN]:
+                    player.nuke()
+
+                elif keys[K_LSHIFT]:
+                    player.super_laser()
+
 
         # background = blend_texture(background, 0.2, (0, 0, 0))
         # Extract all the pixel colors into a numpy array
@@ -6030,15 +6053,6 @@ if __name__ == '__main__':
                 Player.super_shot()
                 Player.missiles()
 
-                if not LASER_BEAM_BLUE.weapon_reloading_std():
-
-                    Follower.images = DEATHRAY_SHAFT
-                    instance_ = Follower(offset_=player.rect.center, timing_=15, loop_=True, event_='SHAFT LIGHT')
-                    if instance_:
-                        SuperLaser.containers = shots, All
-                        SuperLaser.images = LASER_BEAM_BLUE.sprite
-                        SuperLaser(LASER_BEAM_BLUE, TIME_PASSED_SECONDS,
-                                   SC_spaceship, player, All, instance_, layer_=-2)
 
 
 
