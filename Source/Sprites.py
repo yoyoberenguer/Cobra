@@ -1,4 +1,26 @@
 # encoding: utf-8
+"""
+
+                   GNU GENERAL PUBLIC LICENSE
+
+                       Version 3, 29 June 2007
+
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+
+ Everyone is permitted to copy and distribute verbatim copies
+
+ of this license document, but changing it is not allowed.
+ """
+__author__ = "Yoann Berenguer"
+__copyright__ = "Copyright 2007, Cobra Project"
+__credits__ = ["Yoann Berenguer"]
+__license__ = "GPL"
+__version__ = "1.0.0"
+__maintainer__ = "Yoann Berenguer"
+__email__ = "yoyoberenguer@hotmail.com"
+__status__ = "Alpha Demo"
+
 import numpy
 import pygame
 from Constants import *

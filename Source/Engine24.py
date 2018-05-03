@@ -1,4 +1,25 @@
 # encoding: utf-8
+"""
+
+                   GNU GENERAL PUBLIC LICENSE
+
+                       Version 3, 29 June 2007
+
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+
+ Everyone is permitted to copy and distribute verbatim copies
+
+ of this license document, but changing it is not allowed.
+ """
+__author__ = "Yoann Berenguer"
+__copyright__ = "Copyright 2007, Cobra Project"
+__credits__ = ["Yoann Berenguer"]
+__license__ = "GPL"
+__version__ = "1.0.0"
+__maintainer__ = "Yoann Berenguer"
+__email__ = "yoyoberenguer@hotmail.com"
+__status__ = "Alpha Demo"
 
 try:
     from pygame import *
@@ -84,8 +105,9 @@ from DamageDisplay_cython import DamageDisplay
 from HomingMissile_cython import HomingMissile
 from SuperLaser_cython import SuperLaser
 
-# todo test xrange to check if it is faster then range
+# todo test xrange to check if it is faster than range
 # from scipy._lib.six import xrange
+
 
 class ERROR(BaseException):
     pass
@@ -215,9 +237,6 @@ class Player(pygame.sprite.Sprite):
         # the latest joystick/ keyboard input
         self.vector = pygame.math.Vector2(self.rect.center) - old_position
 
-        # --------  debug only -------------
-        # print(directions, joystick_axis_1)
-
     def get_animation_index(self):
         return self.index
 
@@ -248,9 +267,8 @@ class Player(pygame.sprite.Sprite):
                     dummy_sprite = pygame.sprite.Sprite()
                     dummy_sprite.rect = player.rect.copy()
                     dummy_sprite.rect.center = (player.center()[0], player.center()[1] - 400)
-                    # Add the sprite into a specific group
+
                     nuke_aiming_point.add(dummy_sprite)
-                    # signature for IA for exclusion
                     dummy_sprite.dummy = True
 
                     # display a circle where the bomb is aiming
@@ -296,12 +314,12 @@ class Player(pygame.sprite.Sprite):
                 if len(ia.inventory) != 0:
 
                     # Important!
-                    # if sorting ENEMIES_RAPTOR by distance, do not forget
-                    # to create a new instance of ia before
+                    # if sorting enemies by distance, do not forget
+                    # to create a new instance ia before
                     # sorting the data e.g:
                     # ia = Threat(player.rect)
-                    # otherwise the instance will calculate the distance
-                    # from a previous location.
+                    # otherwise the instance will calculate distances between
+                    # player and enemies from a previous location.
                     # mode = ia.sort_by_low_deadliness(entities)
                     mode = ia.sort_by_high_deadliness(entities)
 
@@ -351,10 +369,10 @@ class Player(pygame.sprite.Sprite):
                                                     offset_=player.location().midleft,
                                                     nuke_=False, timing_=33))
 
-                            # shots.add(HomingMissile(target_=t1, weapon_=STINGER_MISSILE, offset_=player.location().midright,
-                            #                   nuke_=False, timing_=33))
-                            # shots.add(HomingMissile(target_=t0, weapon_=STINGER_MISSILE, offset_=player.location().midleft,
-                            #                  nuke_=False, timing_=33))
+                            # shots.add(HomingMissile(target_=t1, weapon_=STINGER_MISSILE,
+                            # offset_=player.location().midright, nuke_=False, timing_=33))
+                            # shots.add(HomingMissile(target_=t0, weapon_=STINGER_MISSILE,
+                            # offset_=player.location().midleft, nuke_=False, timing_=33))
                             # print('targets :', id(t0), id(t1))
                         else:
 
@@ -426,7 +444,6 @@ class Player(pygame.sprite.Sprite):
             Player.super_ready = False
             Player.images = SPACESHIP_SPRITE
             Player.super_started = False
-
 
     def update(self):
         if player.alive():
