@@ -12,7 +12,7 @@ class Anomaly:
         self.images = animation_
         self.image = animation_[0]
         self.name = name_
-        # The real position will be set before calling initializing the class
+        # Position will be set before instantiation 
         self.Rect = self.image.get_rect(center=SCREENRECT.center)
 
     def location(self):
