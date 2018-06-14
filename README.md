@@ -8,7 +8,7 @@ The project is under active development (no GUI available right now), but the co
 to deliver a solid engine within a few months with a couple playable levels.
 
 
-![alt text](https://github.com/yoyoberenguer/Cobra/2018-04-17 08_23_02-Nemesis.png
+![alt text](https://github.com/yoyoberenguer/Cobra/2018-04-17 08_23_02-Nemesis.png)
 
 SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
