@@ -7,6 +7,9 @@ and playable with PS3 controller and/or keyboard.
 The project is under active development (no GUI available right now), but the coding is going pretty smoothly and I hope
 to deliver a solid engine within a few months with a couple playable levels.
 
+
+![alt text](https://github.com/yoyoberenguer/Cobra/2018-04-17 08_23_02-Nemesis.png
+
 SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
 Memory: 4GB 
