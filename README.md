@@ -10,6 +10,8 @@ to deliver a solid engine within a few months with a couple playable levels.
 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Snapshot1.png)   ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/snapshot2.png) 
 
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Snapshot5.png)
+
 SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
 Memory: 4GB 
