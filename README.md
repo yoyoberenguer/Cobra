@@ -71,7 +71,7 @@ Automated sound controller capable of supressing and adding sounds on demand.
 
 And a lot of cython.
 
-# And the GUI in progress
+# GUI in progress
 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Snapshot3.png)   ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Snapshot4.png) 
 
