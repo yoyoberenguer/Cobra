@@ -8,9 +8,16 @@ The project is under active development (no GUI available right now), but the co
 to deliver a solid engine within a few months with a couple playable levels.
 
 
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Snapshot1.png)   ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/snapshot2.png) 
-
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Snapshot5.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump0.png)   
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump3.png) 
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump4.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump5.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump8.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump9.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump10.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump11.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump12.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump13.png)
 
 SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
