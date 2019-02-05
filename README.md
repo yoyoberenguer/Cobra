@@ -10,7 +10,7 @@ to deliver a solid engine within a few months with a couple of playable levels.
 Screendump are taken from the most recent engine that will be used for a commercial version of Cobra
 See also the GUI screendump at the bottom of the page.
 
-If you are curious or interest by the project, you can always drop me a line at yoyoberenguer@gmail.com
+If you are curious or interested by the project, you can always drop me a line at yoyoberenguer@gmail.com
 
 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump0.png)   
