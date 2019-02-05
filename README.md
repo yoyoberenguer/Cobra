@@ -82,7 +82,10 @@ And a lot of cython.
 
 # GUI in progress
 
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Snapshot3.png)   ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Snapshot4.png) 
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/GUI0.png)   
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/GUI1.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/GUI2.png)
+
 
 
  
