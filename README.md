@@ -14,12 +14,12 @@ If you are curious or interested by the project, you can always drop me a line a
 
 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump0.png)   
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump3.png) 
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump1.png) 
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump2.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump3.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump4.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump5.png)
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump8.png)
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump9.png)
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump10.png)
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump6.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump11.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump12.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump13.png)
