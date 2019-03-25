@@ -2,10 +2,9 @@
 
 Cobra DEMO
 
-Cobra is a 2D space game with vertical scrolling (also called shmups), written exclusively in python 3.6 (using pygam & cython) 
+Cobra is a 2D space game with vertical scrolling (also called shmups), written exclusively in python 3.6 (using pygame & cython) 
 and playable with PS3 controller and/or keyboard.
-The project is under active development, but the coding is going pretty smoothly and I hope
-to deliver a solid engine within a few months with a couple of playable levels.
+The project is under active development.
 
 Screendump are taken from the most recent engine that will be used for a commercial version of Cobra
 See also the GUI screendump at the bottom of the page.
