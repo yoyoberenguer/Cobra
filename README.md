@@ -13,7 +13,7 @@ If you are curious or interested by the project, you can always drop me a line a
 
 You can watch youtube videos:
 
-GAME DEMO : https://www.youtube.com/channel/UCLDM0AbxenTM-JPE59iPFqA
+GAME DEMO : https://youtu.be/ld12QiKs2sM
 
 GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
 
