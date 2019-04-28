@@ -11,6 +11,16 @@ See also the GUI screendump at the bottom of the page.
 
 If you are curious or interested by the project, you can always drop me a line at yoyoberenguer@gmail.com
 
+You can watch youtube videos:
+
+GAME DEMO : https://www.youtube.com/channel/UCLDM0AbxenTM-JPE59iPFqA
+
+GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
+
+
+
+
+
 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump0.png)   
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump1.png) 
