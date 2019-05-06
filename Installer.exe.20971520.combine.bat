@@ -1,1 +1,0 @@
-copy/b "Installer.exe.20971520.0000.part" + "Installer.exe.20971520.0001.part" + "Installer.exe.20971520.0002.part" + "Installer.exe.20971520.0003.part" + "Installer.exe.20971520.0004.part" + "Installer.exe.20971520.0005.part" + "Installer.exe.20971520.0006.part" "Installer.exe"
