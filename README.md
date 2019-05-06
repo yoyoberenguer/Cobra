@@ -39,34 +39,28 @@ Memory: 4GB
 Display: 1280x1024 32 bit 
 
 HOW TO INSTALL 
-2 methods: 
-1) Downloads Installer.exe parts and double click on the batch file. 
-   This will launch a window installer.  
+ 
+1) Download the project (including Assets directory) 
    
-2) Download the project (including Assets directory) and double click on the batch file Cobra.exe.10485760.combine.bat.  
-   Run Cobra.exe
-
+2) Double click on the batch file Cobra.exe (combine.bat) and Run Cobra.exe
+   
 HOW TO PLAY 
 Keyboard: 
 ARROW KEYS: (LEFT, RIGHT, UP and DOWN) for spaceship direction
-
 SPACEBAR:  Primary shot
-
-LEFT – CTRL: Secondary shot
-
+LEFT – CTRL: Secondary shot 
+B: Cluster Bomb
+ENTER: Atomic
+SHIFT LEFT: Super Laser
+RIGHT ALT: Nanobots
 PAUSE/BREAK : Pause the game
-
 ESC: to quit
 
 PS3 Joystick:
 X: Primary shot
-
 SQUARE: Micro bots
-
 L3: Directions
-
 L2: Atomics
-
 R2: Secondary shot and missiles
 
 ** PS Insert your PS3 USB dongle if any otherwise use the keyboard
