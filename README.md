@@ -28,7 +28,7 @@ HOW TO INSTALL
    
 2) Double click on the batch file Cobra.exe (combine.bat) and Run Cobra.exe
    
-NOTA: Don't run the game from the compressed archive, it won't work  
+NOTE: Don't run the game from the compressed archive, it won't work  
 
 
 
