@@ -17,7 +17,18 @@ GAME DEMO : https://youtu.be/ld12QiKs2sM
 
 GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
 
+SYSTEM REQUIRMENT
+CPU: Dual core or quad core 2.2Ghz.
+Memory: 4GB 
+Display: 1280x1024 32 bit 
 
+HOW TO INSTALL 
+ 
+1) Download the project (including Assets directory) 
+   
+2) Double click on the batch file Cobra.exe (combine.bat) and Run Cobra.exe
+   
+NOTA: Don't run the game from the compressed archive, it won't work  
 
 
 
@@ -33,20 +44,10 @@ GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump12.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump13.png)
 
-SYSTEM REQUIRMENT
-CPU: Dual core or quad core 2.2Ghz.
-Memory: 4GB 
-Display: 1280x1024 32 bit 
 
-HOW TO INSTALL 
- 
-1) Download the project (including Assets directory) 
-   
-2) Double click on the batch file Cobra.exe (combine.bat) and Run Cobra.exe
-   
-NOTA: Don't run the game from the compressed archive, it won't work  
 
-HOW TO PLAY 
+# HOW TO PLAY 
+
 Keyboard: 
 ARROW KEYS: (LEFT, RIGHT, UP and DOWN) for spaceship direction
 
