@@ -13,9 +13,9 @@ _If you are curious or interested by the project, you can always drop me a line 
 
 You can watch youtube videos:
 
-GAME DEMO : https://youtu.be/ld12QiKs2sM
+> GAME DEMO : https://youtu.be/ld12QiKs2sM
 
-GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
+> GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
 
 ### SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
@@ -24,17 +24,14 @@ Display: 1280x1024 32 bit
 
 ### HOW TO INSTALL 
  
-1. Download the project (including Assets directory) 
+1. Download the project (**including Assets directory**) 
    
-2. Double click on the batch file Cobra.exe (combine.bat) and Run Cobra.exe
+2. Double click on the batch file **Cobra.exe** (combine.bat) and Run Cobra.exe
    
-NOTE: Don't run the game from the compressed archive, it won't work  
+NOTE: _Don't run the game from the compressed archive, it won't work_  
 
-
-
-
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump0.png)   
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump1.png) 
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump0.png) 
+![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump1.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump2.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump3.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump4.png)
@@ -48,43 +45,34 @@ NOTE: Don't run the game from the compressed archive, it won't work
 
 ### HOW TO PLAY 
 
-Keyboard: 
-ARROW KEYS: (LEFT, RIGHT, UP and DOWN) for spaceship direction
+#### Keyboard 
 
-SPACEBAR:  Primary shot
+ARROW KEYS              | (LEFT, RIGHT, UP and DOWN) for spaceship direction-
+------------------------|-----------------------------------------------------
+SPACEBAR                |  Primary shot
+LEFT – CTRL             | Secondary shot 
+B                       | Cluster Bomb
+ENTER                   | Atomic
+SHIFT LEFT              | Super Laser
+RIGHT ALT               | Nanobots
+PAUSE/BREAK             | Pause the game
+ESC                     | to quit
 
-LEFT – CTRL: Secondary shot 
+#### PS3 Joystick
+X                       | Primary shot
+------------------------|--------------------------
+SQUARE                  | Micro bots
+L3                      | Directions
+L2                      | Atomics
+R2                      | Secondary shot and missiles
 
-B: Cluster Bomb
-
-ENTER: Atomic
-
-SHIFT LEFT: Super Laser
-
-RIGHT ALT: Nanobots
-
-PAUSE/BREAK : Pause the game
-
-ESC: to quit
-
-PS3 Joystick:
-
-X: Primary shot
-
-SQUARE: Micro bots
-
-L3: Directions
-
-L2: Atomics
-
-R2: Secondary shot and missiles
-
-** PS Insert your PS3 USB dongle if any otherwise use the keyboard
+Note: _Insert your PS3 USB dongle if any otherwise use the keyboard_
 
 ### FEATURES
+
 Works with Keyboard and PS3 controller Automatic player's central turret with pre-define strategy using AI (collision course calculation, and risks triage).
 
-Fluid sprite animation made with Timeline FX.
+Fluid sprite animation made with **Timeline FX**.
 
 Vertical scrolling with parallax background - 3 layers.
 
