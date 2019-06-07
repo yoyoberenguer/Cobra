@@ -13,9 +13,9 @@ _If you are curious or interested by the project, you can always drop me a line 
 
 You can watch youtube videos:
 
-> GAME DEMO : https://youtu.be/ld12QiKs2sM
+GAME DEMO : https://youtu.be/ld12QiKs2sM
 
-> GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
+GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
 
 ### SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
@@ -47,24 +47,25 @@ NOTE: _Don't run the game from the compressed archive, it won't work_
 
 #### Keyboard 
 
-ARROW KEYS              | (LEFT, RIGHT, UP and DOWN) for spaceship direction-
+**Key**                     | Assignement 
 ------------------------|-----------------------------------------------------
-SPACEBAR                |  Primary shot
-LEFT – CTRL             | Secondary shot 
-B                       | Cluster Bomb
-ENTER                   | Atomic
-SHIFT LEFT              | Super Laser
-RIGHT ALT               | Nanobots
-PAUSE/BREAK             | Pause the game
-ESC                     | to quit
+**ARROW KEYS**              | (LEFT, RIGHT, UP and DOWN) for spaceship direction
+**SPACEBAR**                |  Primary shot
+**LEFT – CTRL**             | Secondary shot 
+**B**                       | Cluster Bomb
+**ENTER**                   | Atomic
+**SHIFT LEFT**              | Super Laser
+**RIGHT ALT**               | Nanobots
+**PAUSE/BREAK**             | Pause the game
+**ESC**                     | to quit
 
 #### PS3 Joystick
-X                       | Primary shot
+**X**                       | Primary shot
 ------------------------|--------------------------
-SQUARE                  | Micro bots
-L3                      | Directions
-L2                      | Atomics
-R2                      | Secondary shot and missiles
+**SQUARE**                  | Micro bots
+**L3**                      | Directions
+**L2**                      | Atomics
+**R2**                      | Secondary shot and missiles
 
 Note: _Insert your PS3 USB dongle if any otherwise use the keyboard_
 
