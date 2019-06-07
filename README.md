@@ -60,8 +60,9 @@ NOTE: _Don't run the game from the compressed archive, it won't work_
 **ESC**                     | to quit
 
 #### PS3 Joystick
+**button**                  |   Assignement
+--------------------------------------------------
 **X**                       | Primary shot
-------------------------|--------------------------
 **SQUARE**                  | Micro bots
 **L3**                      | Directions
 **L2**                      | Atomics
