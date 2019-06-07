@@ -2,14 +2,14 @@
 
 # Cobra DEMO
 
-Cobra is a 2D space game with vertical scrolling (also called shmups), written exclusively in python 3.6 (using pygame & cython) 
-and playable with PS3 controller and/or keyboard.
+**Cobra** is a 2D space game with vertical scrolling (also called shmups), written exclusively in python 3.6 (using pygame & cython) 
+and playable with **PS3 controller and/or keyboard**.
 The project is under active development.
 
 Screendump are taken from the most recent engine that will be used for a commercial version of Cobra
 See also the GUI screendump at the bottom of the page.
 
-If you are curious or interested by the project, you can always drop me a line at yoyoberenguer@gmail.com
+_If you are curious or interested by the project, you can always drop me a line at yoyoberenguer@gmail.com_
 
 You can watch youtube videos:
 
@@ -17,16 +17,16 @@ GAME DEMO : https://youtu.be/ld12QiKs2sM
 
 GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
 
-## SYSTEM REQUIRMENT
+### SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
 Memory: 4GB 
 Display: 1280x1024 32 bit 
 
-## HOW TO INSTALL 
+### HOW TO INSTALL 
  
-1) Download the project (including Assets directory) 
+1. Download the project (including Assets directory) 
    
-2) Double click on the batch file Cobra.exe (combine.bat) and Run Cobra.exe
+2. Double click on the batch file Cobra.exe (combine.bat) and Run Cobra.exe
    
 NOTE: Don't run the game from the compressed archive, it won't work  
 
@@ -46,7 +46,7 @@ NOTE: Don't run the game from the compressed archive, it won't work
 
 
 
-## HOW TO PLAY 
+### HOW TO PLAY 
 
 Keyboard: 
 ARROW KEYS: (LEFT, RIGHT, UP and DOWN) for spaceship direction
@@ -81,7 +81,7 @@ R2: Secondary shot and missiles
 
 ** PS Insert your PS3 USB dongle if any otherwise use the keyboard
 
-## FEATURES
+### FEATURES
 Works with Keyboard and PS3 controller Automatic player's central turret with pre-define strategy using AI (collision course calculation, and risks triage).
 
 Fluid sprite animation made with Timeline FX.
@@ -104,7 +104,7 @@ Automated sound controller capable of supressing and adding sounds on demand.
 
 And a lot of cython.
 
-## GUI in progress
+### GUI in progress
 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/GUI0.png)   
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/GUI1.png)
