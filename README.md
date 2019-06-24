@@ -9,6 +9,8 @@ The project is under active development.
 Screendump are taken from the most recent engine that will be used for a commercial version of Cobra
 See also the GUI screendump at the bottom of the page.
 
+I am also devlopping a module capable of connecting network users to join the gaming experience.
+
 _If you are curious or interested by the project, you can always drop me a line at yoyoberenguer@gmail.com_
 
 You can watch youtube videos:
