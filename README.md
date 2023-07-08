@@ -69,7 +69,7 @@ editbin.exe python.exe /LARGERADDRESSAWARE
 
 **Key**                     | Assignement 
 ------------------------|-----------------------------------------------------
-**ARROW KEYS**              | (LEFT, RIGHT, UP and DOWN) for spaceship direction
+**ARROW KEYS**              | (LEFT, RIGHT, UP and DOWN) for spaceship direction or use mouse
 **SPACEBAR**                |  Primary shot
 **LEFT – CTRL**             | Secondary shot 
 **B**                       | Cluster Bomb
