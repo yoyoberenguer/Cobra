@@ -11,18 +11,9 @@ See also the GUI screendump at the bottom of the page.
 
 I am also devlopping a module capable of connecting network users to join a party.
 
-_If you are curious or interested by the project, you can always drop me a line at yoyoberenguer@gmail.com_
-
-You can watch youtube videos:
-
-GAME DEMO : https://youtu.be/ld12QiKs2sM
-
-GUI VIDEO : https://youtu.be/2mdLDnuKvuQ
-
 ### SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
 Memory: 4GB 
-Display: 1280x1024 32 bit 
 
 ### HOW TO INSTALL 
  
@@ -39,10 +30,6 @@ NOTE: _Don't run the game from the compressed archive, it won't work_
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump4.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump5.png)
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump6.png)
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump11.png)
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump12.png)
-![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump13.png)
-
 
 
 ### HOW TO PLAY 
