@@ -69,19 +69,13 @@ Vertical scrolling with parallax background - 3 layers.
 
 Personalised HUDS for life and energy (Life and energy levels are generated with Numpy arrays to create variable gradient colours).
 
-Real time spaceship status damage monitoring (wings, nose etc.) and the possibility to launch micro-bots to fix hull damages.
-
 Nuke explosion generating a halo that blows out enemies and objects in deep space using an elastic collision engine to calculate objects' direction and momentum vectors.
 
 Collectables to grab throughout the space battle e.g. (nukes, energy cells, ammunitions and gems) Special effects created with python algorithm to generate random particles for homing missile propulsion, spaceship damage and super weapon effects.
 
 Enemy spaceship with pre-defined class and AI strategies (following path e.g. Bezier curves or controlled by AI e.g. evasive manoeuvre). Lots of methods for “pygame” image/surface processing using Numpy arrays (blending colours and texture e.g. superposed images, ADD/SUB transparency) for more realistic effect.
 
-Some multi-threading for background processing.
-
 Automated sound controller capable of supressing and adding sounds on demand.
-
-And a lot of cython.
 
 ### GUI in progress
 
