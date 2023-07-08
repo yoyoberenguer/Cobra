@@ -19,9 +19,7 @@ Memory: 4GB
  
 1. Download the project (**including Assets directory**) 
    
-2. Double click on the batch file **Cobra.exe** (combine.bat) and Run Cobra.exe
-   
-NOTE: _Don't run the game from the compressed archive, it won't work_  
+2. 
 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump0.png) 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump1.png)
