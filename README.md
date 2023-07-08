@@ -42,8 +42,8 @@ Visual studio building tools 2015 - 2022
 The game works on most platforms (windows, linux) 
 Architectures such as i686, x86_64, win32
 
-To run Cobra on win32 you will have to extend to 4G the memory
-limit used by python.exe 
+To run Cobra on win32, you will have to extend to 4G the memory
+limit used by the python.exe process. 
 
 Locate the executable editbin.exe from the VC\Tools\MSVC folder and run
 ```
