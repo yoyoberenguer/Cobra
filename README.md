@@ -2,24 +2,54 @@
 
 # Cobra DEMO
 
-**Cobra** is a 2D space game with vertical scrolling (also called shmups), written exclusively in python 3.6 (using pygame & cython) 
-and playable with **PS3 controller and/or keyboard**.
-The project is under active development.
-
-Screendump are taken from the most recent engine that will be used for a commercial version of Cobra
-See also the GUI screendump at the bottom of the page.
-
-I am also devlopping a module capable of connecting network users to join a party.
+**Cobra** is a 2D space game with vertical scrolling (also called shmups), written with python (using pygame & cython) 
+and playable with **PS3 controller and/or keyboard or mouse**.
+The project is still ongoing.
 
 ### SYSTEM REQUIRMENT
 CPU: Dual core or quad core 2.2Ghz.
-Memory: 4GB 
+Memory: at least 4GB (the current engine requires 2.8 GBytes)
 
+### REQUIRED PYTHON LIBRARIES
+Requires the following: 
+```
+pygame==2.4.0
+numpy==1.19.5
+psutil>=5.9.5
+Cython==0.29.25
+lz4>=3.1.3
+PygameShader>=1.0.8
+```
+### VISUAL STUDIO BUILDING TOOLS 
+```
+Visual studio building tools 2015 - 2022
+```
 ### HOW TO INSTALL 
  
-1. Download the project (**including Assets directory**) 
-   
-2. 
+1. Download the latest build (around 280MBytes)
+2. Decompress the archive (zip)
+3. cd into the main directory ```Cobra2P``` where setup_cobra.py is located
+4. Run the following command with python3.11 (for better performances)
+   ```bash
+   C:\>python setupe_cobra.py build_ext --inplace
+   ```
+6. run
+   ```bash
+   C:\>python Engine29.py
+   ```
+### Compatibility 
+
+The game works on most platforms (windows, linux) 
+Architectures such as i686, x86_64, win32
+
+To run Cobra on win32 you will have to extend to 4G the memory
+limit used by python.exe 
+Locate the executable editbin.exe from the VC\Tools\MSVC folder and run
+```
+editbin.exe python.exe /LARGERADDRESSAWARE
+```
+
+
 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump0.png) 
 ![alt text](https://github.com/yoyoberenguer/Cobra/blob/master/Screendump1.png)
@@ -31,6 +61,8 @@ Memory: 4GB
 
 
 ### HOW TO PLAY 
+
+#### Mouse for moving the spaceship
 
 #### Keyboard 
 
