@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<class>
+    <category name = "BACKGROUND LEVEL1">
+
+
+        <background name          ="ASTEROID3"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             = "(int(600 * ratio_x), -1950)"
+                speed_            ="Vector2(0.0, 1.25)"
+                final_            ='(200, screenrect_h)'
+                comeback_to_      ='Vector2(200 * ratio_x, -screenrect_h)'
+                layer_            ='0'
+                event_            ='ASTEROID3'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="ASTEROID1"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="Vector2(200 * ratio_x, -screenrect_h)"
+                speed_            ="Vector2(0.0, 2.2)"
+                final_            ='(200, screenrect_h)'
+                comeback_to_      ='Vector2(200 * ratio_x, -screenrect_h)'
+                layer_            ='-5'
+                event_            ='ASTEROID1'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="ASTEROID2"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="Vector2(200 * ratio_x, -screenrect_h - 476)"
+                speed_            ="Vector2(0.0, 1.5)"
+                final_            ='(200, screenrect_h)'
+                comeback_to_      ='Vector2(200 * ratio_x, -screenrect_h - 476)'
+                layer_            ='-5'
+                event_            ='ASTEROID2'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="CLOUD"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="Vector2(-200 * ratio_x, -screenrect_h - 1048)"
+                speed_            ="Vector2(0.0, 1.1)"
+                final_            ='(200, screenrect_h)'
+                comeback_to_      ='Vector2(-200 * ratio_x, -screenrect_h - 1048)'
+                layer_            ='-6'
+                event_            ='CLOUD'
+                loop_             ='False'
+                blend_            ='1'>
+        </background>
+
+        <background name          ="CLOUD1"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="Vector2(200 * ratio_x, -screenrect_h - 1550)"
+                speed_            ="Vector2(0.0, 1.1)"
+                final_            ='(200, screenrect_h)'
+                comeback_to_      ='Vector2(200 * ratio_x, -screenrect_h - 1550)'
+                layer_            ='-5'
+                event_            ='CLOUD1'
+                loop_             ='False'
+                blend_            ='1'>
+        </background>
+
+        <background name          ="back1"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="Vector2(0, 0)"
+                speed_            ="Vector2(0, 1.0 / 3.0)"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='Vector2(0.0, -screenrect_h)'
+                layer_            ='-8'
+                event_            ='back1'
+                loop_             ='True'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="back2"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="Vector2(0, -screenrect_h)"
+                speed_            ="Vector2(0.0, 1.0 / 3.0)"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='Vector2(0, -screenrect_h)'
+                layer_            ='-8'
+                event_            ='back2'
+                loop_             ='True'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="ENERGY"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="Vector2(0, 0)"
+                speed_            ="Vector2(0, 0)"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='Vector2(0, 0)'
+                layer_            ='0'
+                event_            ='ENERGY'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="LIFE"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="Vector2(screenrect_w - LIFE_HUD.get_width(), 0)"
+                speed_            ="Vector2(0, 0)"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='Vector2(0, 0)'
+                layer_            ='0'
+                event_            ='LIFE'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="PLATFORM_0"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd10_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='gl_.bgd7_vector'
+                layer_            ='-7'
+                event_            ='PLATFORM_0'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="PLATFORM"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd7_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='gl_.bgd7_vector'
+                layer_            ='-7'
+                event_            ='PLATFORM'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+
+        <background name          ="PLATFORM_2"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd8_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='gl_.bgd7_vector'
+                layer_            ='-7'
+                event_            ='PLATFORM_2'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+        <background name          ="PLATFORM_3"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd9_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='gl_.bgd7_vector'
+                layer_            ='-7'
+                event_            ='PLATFORM_3'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+        <background name          ="PLATFORM_4"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd11_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='gl_.bgd7_vector'
+                layer_            ='-7'
+                event_            ='PLATFORM_4'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+        <background name          ="PLATFORM_5"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd12_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='gl_.bgd7_vector'
+                layer_            ='-7'
+                event_            ='PLATFORM_5'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+        <background name          ="PLATFORM_6"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd13_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='gl_.bgd7_vector'
+                layer_            ='-7'
+                event_            ='PLATFORM_6'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+        <background name          ="PLATFORM_7"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd14_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='gl_.bgd7_vector'
+                layer_            ='-7'
+                event_            ='PLATFORM_7'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+        <background name          ="PLATFORM_8"
+                container         ="gl_.All"
+                variables         ="gl_"
+                v_pos             ="gl_.bgd15_vector"
+                speed_            ="gl_.bv"
+                final_            ='(0, screenrect_h)'
+                comeback_to_      ='Vector2(0, -screenrect_h)'
+                layer_            ='-5'
+                event_            ='PLATFORM_8'
+                loop_             ='False'
+                blend_            ='0'>
+        </background>
+
+    </category>
+
+</class>

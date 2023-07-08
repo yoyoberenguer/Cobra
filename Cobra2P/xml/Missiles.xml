@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<class>
+    <category name = "MISSILE">
+        <modes>
+            <mode name = "GUIDED">
+                <weapon name="STINGER"
+                        type="Missile"
+                        image="STINGER_IMAGE"
+                        sprite_orientation="90"
+                        sprite_rotozoom ="STINGER_ROTATE_BUFFER"
+                        propulsion_sound_fx="MISSILE_FLIGHT_SOUND"
+                        missile_trail_fx="MISSILE_TRAIL_DICT2"
+
+                        missile_trail_fx_blend = "pygame.BLEND_RGB_ADD"
+                        animation='None'
+                        range='pygame.display.get_surface().get_height()'
+                        bingo_range = '(100, 120)'
+                        velocity='-15'
+                        damage='1050'
+                        timestamp='0'
+                        reloading_time='2'
+                        detonation_dist='None'
+                        max_rotation='10'>
+                    <doc
+                        type = "Weapon class, define the weapon category"
+                        image = "Sprite/image used to represent the weapon (pygame.Surface)"
+                        sprite_orientation = "Correspond to the sprite image orientation"
+                        propulsion_sound_fx = "Sound play when the missile is launched (pygame.mixer.Sound)"
+                        animation = "Sprite animation to play in certain circumstances Not fully implemented"
+                        offset = "Offset from the missile launch position"
+                        range = "Maximum missile range. Is it the detection range or flying range?"
+                        bingo_range = "maximal tank value and 20% allowed variation, e.g RandRange(100, 120)"
+                        velocity = "Maximum missile velocity"
+                        damage = "Maximum damage transfer to the target after collision"
+                        timestamp = "Set the frame number when the missile was last launched"
+                        reloading_time = "Reloading time in Secs. reloading_time * TIME_PASS_SECONDS
+                         give the amount of frames."
+                        detonation_dist = "Certain weapon/missile category requires this attribute, it correspond to
+                        a self detonation when the missile is close range of the target (no need for a direct hit)."
+                        max_rotation = "Correspond to the missile angular speed when flying toward a target. This is
+                        the maximum angle (in degrees) a missile can rotate (each frame) in order to hit its target.">
+                    </doc>
+                </weapon>
+
+                <weapon name = "BUMBLEBEE"
+                        type="Missile"
+                        image="BUMBLEBEE_IMAGE"
+                        sprite_orientation="90"
+                        sprite_rotozoom ="BUMBLEBEE_ROTATE_BUFFER"
+                        propulsion_sound_fx="MISSILE_FLIGHT_SOUND"
+                        missile_trail_fx="MISSILE_TRAIL_DICT3"
+                        missile_trail_fx_blend = "pygame.BLEND_RGB_ADD"
+                        animation='None'
+                        range='pygame.display.get_surface().get_height()'
+                        bingo_range = '(115, 150)'
+                        velocity='-14'
+                        damage='1850'
+                        timestamp='0'
+                        reloading_time='3'
+                        detonation_dist='None'
+                        max_rotation='13'>
+                </weapon>
+                <weapon name = "WASP"
+                        type="Missile"
+                        image="WASP_IMAGE"
+                        sprite_orientation="90"
+                        sprite_rotozoom ="WASP_ROTATE_BUFFER"
+                        propulsion_sound_fx="MISSILE_FLIGHT_SOUND"
+                        missile_trail_fx="MISSILE_TRAIL_DICT2"
+                        missile_trail_fx_blend = "pygame.BLEND_RGB_ADD"
+                        animation='None'
+                        range='pygame.display.get_surface().get_height()'
+                        bingo_range = '(118, 145)'
+                        velocity='-15.6'
+                        damage='2210'
+                        timestamp='0'
+                        reloading_time='3.2'
+                        detonation_dist='None'
+                        max_rotation='13.8'>
+                </weapon>
+                <weapon name = "HORNET"
+                        type="Missile"
+                        image="HORNET_IMAGE"
+                        sprite_orientation="90"
+                        sprite_rotozoom ="HORNET_ROTATE_BUFFER"
+                        propulsion_sound_fx="MISSILE_FLIGHT_SOUND"
+                        missile_trail_fx="MISSILE_TRAIL_DICT1"
+                        missile_trail_fx_blend = "0"
+                        animation='None'
+                        range='pygame.display.get_surface().get_height()'
+                        bingo_range = '(120, 155)'
+                        velocity='-17'
+                        damage='4000'
+                        timestamp='0'
+                        reloading_time='5'
+                        detonation_dist='None'
+                        max_rotation='15'>
+                </weapon>
+                <weapon name = "NUKE"
+                        type="Missile"
+                        image="NUKE_BOMB_SPRITE"
+                        sprite_orientation="90"
+                        propulsion_sound_fx="MISSILE_FLIGHT_SOUND"
+                        missile_trail_fx_blend = "0"
+                        range='pygame.display.get_surface().get_height()'
+                        velocity='-15'
+                        damage='15000'
+                        timestamp='0'
+                        reloading_time='3'
+                        >
+                </weapon>
+
+            </mode>
+            <mode name = "UNGUIDED">
+                <name name = "BUMBLEBEE"></name>
+            </mode>
+        </modes>
+    </category>
+
+    <category name = "BOMB">
+        <modes>
+            <mode name = "GUIDED">
+                <weapon name = "NUCLEON"></weapon>
+                <weapon name = "PLASMA"></weapon>
+            </mode>
+            <mode name = "UNGUIDED">
+            </mode>
+        </modes>
+
+    </category>
+</class>

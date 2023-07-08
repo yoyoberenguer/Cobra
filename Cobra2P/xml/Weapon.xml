@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<class>
+    <category name = "BULLET HELL">
+
+        <weapon name              ="LASER_FX074"
+                type              ="LASER"
+                image             ="G5V200_LASER_FX074"
+                sprite_orientation="0"
+                sprite_rotozoom   ="G5V200_FX074_ROTATE_BUFFER"
+                range             ='pygame.display.get_surface().get_height()'
+                velocity          ='8'
+                damage            ='250.0'
+                reload_countdown  ='1500'
+                reloading_time    ='1500'>
+        </weapon>
+
+        <weapon name              ="LASER_FX086"
+                type              ="LASER"
+                image             ="G5V200_LASER_FX086"
+                sprite_orientation="0"
+                sprite_rotozoom   ="G5V200_FX086_ROTATE_BUFFER"
+                range             ='pygame.display.get_surface().get_height()'
+                velocity          ='7'
+                damage            ='100.0'
+                reload_countdown  ='0'
+                reloading_time    ='0'>
+        </weapon>
+
+    </category>
+
+</class>

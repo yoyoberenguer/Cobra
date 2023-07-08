@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<class>
+    <category name = "BOSS">
+
+        <weapon name              ="G5V200"
+                type              ="CORVETTE"
+                image             ="G5V200_ANIMATION"
+                sprite_orientation="0"
+                shadow            ="G5V200_SHADOW"
+                shadow_buffer     ="G5V200_SHADOW_ROTATION_BUFFER"
+                life              ="50000"
+                max_life          ="50000"
+                score             ="10000"
+                path              = "numpy.array([[200, 100], [450, 700], [800, 300], [310, 150]])"
+                strategy          ="path"
+                start_frame       ="800"
+                damage            ="20000"
+        >
+        </weapon>
+
+    </category>
+
+</class>
