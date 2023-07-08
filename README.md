@@ -44,6 +44,7 @@ Architectures such as i686, x86_64, win32
 
 To run Cobra on win32 you will have to extend to 4G the memory
 limit used by python.exe 
+
 Locate the executable editbin.exe from the VC\Tools\MSVC folder and run
 ```
 editbin.exe python.exe /LARGERADDRESSAWARE
