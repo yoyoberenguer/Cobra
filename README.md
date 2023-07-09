@@ -14,11 +14,12 @@ Memory: at least 4GB (the current engine requires 2.8 GBytes)
 Requires the following: 
 ```
 pygame==2.4.0
-numpy==1.19.5
+numpy==1.24.4
 psutil>=5.9.5
-Cython==0.29.25
+Cython==0.29.35
 lz4>=3.1.3
-PygameShader>=1.0.8
+PygameShader>=1.0.9
+numba>=0.57.1
 ```
 ### VISUAL STUDIO BUILDING TOOLS 
 ```
