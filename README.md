@@ -11,7 +11,6 @@ CPU: Dual core or quad core 2.2Ghz.
 Memory: at least 4GB (the current engine requires 2.8 GBytes)
 
 ### REQUIRED PYTHON LIBRARIES
-Requires the following: 
 ```
 pygame==2.4.0
 numpy==1.24.4
@@ -26,7 +25,7 @@ numba>=0.57.1
 Visual studio building tools 2015 - 2022
 ```
 ### HOW TO INSTALL 
- 
+* compatible python 3.6 - 3.11
 1. Download the latest build (around 280MBytes)
 2. Decompress the archive (zip)
 3. cd into the main directory ```Cobra2P``` where setup_cobra.py is located
