@@ -29,8 +29,9 @@ Visual studio building tools 2015 - 2022
 1. Download the latest build (around 280MBytes)
 2. Decompress the archive (zip)
 3. cd into the main directory ```Cobra2P``` where setup_cobra.py is located
-4. Run the following command with python3.11 (for better performances)
+4. Run the following commands with python3.11 (for better performances)
    ```bash
+   C:\>pip install -r requirements.txt
    C:\>python setupe_cobra.py build_ext --inplace
    ```
 6. run
